@@ -1,4 +1,3 @@
-
 package CapaDatos;
 
 import java.io.BufferedReader;
