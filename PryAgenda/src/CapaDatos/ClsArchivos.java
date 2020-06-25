@@ -1,4 +1,3 @@
-
 package CapaDatos;
 
 import java.io.BufferedReader;
@@ -52,7 +51,8 @@ public class ClsArchivos {
             }
             //se cierra el ojeto scanner
             scanner.close();
-        } 
+        } catch (FileNotFoundException e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
         }
         return listaContactos;
     }
